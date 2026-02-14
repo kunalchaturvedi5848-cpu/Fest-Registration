@@ -1,21 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fest Registration</title>
-<link rel="stylesheet" href="style.css">
+    <title>Fest Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff4e8a, #6a11cb);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 100px;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        input {
+            padding: 12px;
+            width: 250px;
+            border-radius: 8px;
+            border: none;
+            margin: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 12px 25px;
+            border-radius: 25px;
+            border: none;
+            background-color: white;
+            color: #ff4e8a;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #ffe6f0;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            width: 100%;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+    </style>
 </head>
+
 <body>
 
-<div class="container">
-    <h1>Fest Registration 🎉</h1>
-    <p>Welcome to the Annual Fest Registration Portal.</p>
-        Register Now ➡️
-    <button onclick="location.href='who.html'" class="next-btn">
-    Next ➝
-</button>
-</div>
+    <div class="container">
+        <h1>College Fest 2026</h1>
+        <p>Welcome to the official Fest Registration</p>
+
+        <h2>Fest Registration</h2>
+
+        <input type="text" placeholder="Your Name" required><br>
+        <input type="text" placeholder="College Name" required><br>
+        <input type="email" placeholder="Email ID" required><br>
+
+        <br>
+
+        <button onclick="window.location.href='who.html'">
+            Continue →
+        </button>
+    </div>
+
+    <div class="footer">
+       WHO YOU ARE?
+    </div>
 
 </body>
 </html>
